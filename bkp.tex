@@ -1,0 +1,108 @@
+\documentclass{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english,portuguese]{babel}
+
+% Tema escuro
+\usetheme{Warsaw}
+\usecolortheme{crane} 
+
+% Ajustes de cores
+\setbeamercolor{background canvas}{bg=black}
+\setbeamercolor{frametitle}{fg=white,bg=darkgray}
+\setbeamercolor{title}{fg=yellow,bg=black}
+\setbeamercolor{itemize item}{fg=white}
+\setbeamercolor{itemize subitem}{fg=white}
+\setbeamercolor{normal text}{fg=white}
+\setbeamercolor{section in toc}{fg=white} 
+\setbeamercolor{subsection in toc}{fg=white}
+
+\setbeamertemplate{headline}{%
+  \leavevmode%
+  \hbox{%
+    \begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1.125ex]{palette quaternary}%
+    \insertsectionnavigationhorizontal{\paperwidth}{}{\hskip0pt plus1filll}
+    \end{beamercolorbox}%
+  }
+}
+
+\title{Engenharia de Manutenção Eletrônica - Itaipu Binacional}
+\author{SMIN.DT}
+\date{14/08/2023}
+
+\begin{document}
+
+\frame{\titlepage}
+
+% Slide de Sumário
+\begin{frame}
+\frametitle{Sumário}
+\tableofcontents
+\end{frame}
+
+\section[Introdução]{Introdução}
+\begin{frame}
+\frametitle{Introdução}
+\begin{itemize}
+    \item Desafios da confiabilidade e disponibilidade de equipamentos.
+    \item Controle de ativos da usina.
+    \item Segurança cibernética e monitoramento.
+    \item Adesão às normas ISA.
+\end{itemize}
+\end{frame}
+
+\section[IEE1]{IEE1: Proteção e Controle}
+\begin{frame}
+\frametitle{IEE1: Área de Proteção}
+\begin{itemize}
+    \item Foco em IEDs.
+    \item Proteção de geradores, linhas, trafos e subestações.
+\end{itemize}
+\end{frame}
+
+\section[IEE2]{IEE2: Regulação}
+\begin{frame}
+\frametitle{IEE2: Regulação}
+\begin{itemize}
+    \item RPMF (Oscilografia).
+    \item Sistema de rádio ISM da iluminação monumental.
+\end{itemize}
+\end{frame}
+
+\section[IEE3]{IEE3: Automação, Controle e Telecomunicações}
+\begin{frame}
+\frametitle{IEE3: Sistemas Diversos}
+\begin{itemize}
+    \item Teleproteção via sistemas SDH.
+    \item SCC: SCADA da Siemens.
+    \item Modernização do SCADA ABB/Hitachi.
+    \item Dados hidrometeorológicos via rádio/satélite.
+    \item Segurança da barragem (ADAS).
+    \item Segurança física da usina (ESAI).
+\end{itemize}
+\end{frame}
+
+\section[IEE4]{IEE4: Monitoramento, Análise de Dados e Segurança Cibernética}
+\begin{frame}
+\frametitle{IEE4: Segurança e Normas}
+\begin{itemize}
+    \item Segurança cibernética.
+    \item Monitoramento dos ativos e da rede industrial (SIRI).
+    \item Estudo e aplicação de normas.
+    \item RTA da atualização tecnológica.
+    \item Atualização tecnológica em colaboração com Engenharia de Projeto.
+\end{itemize}
+\end{frame}
+
+\section[Conclusão]{Conclusão}
+\begin{frame}
+\frametitle{Conclusão}
+\begin{itemize}
+    \item A importância de manter e atualizar sistemas.
+    \item O compromisso com a segurança e confiabilidade.
+    \item O futuro da Engenharia de Manutenção Eletrônica na Itaipu Binacional.
+\end{itemize}
+\end{frame}
+
+\end{document}
