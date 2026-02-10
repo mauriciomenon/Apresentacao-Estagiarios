@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# Kimi / SpecStory
+.specstory/
+
+# Backups locais
+backup_completo_*/
